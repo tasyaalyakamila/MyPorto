@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .text-stroke-gold {
+    -webkit-text-stroke: 1.5px #f2a922;
+    color: transparent;
+  }
+  .text-stroke-gold-thin {
+    -webkit-text-stroke: 1px #d98f12;
+    color: transparent;
+  }
+  .text-stroke-cream {
+    -webkit-text-stroke: 1px #f5eee6;
+    color: transparent;
+  }
+}
+
+/* Custom smooth styling */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  background-color: #f5eee6;
+}
+
+h1, h2, h3, .font-serif-vintage {
+  font-family: 'Playfair Display', Georgia, serif;
+}
+
+.font-script {
+  font-family: 'Marck Script', cursive;
+}
