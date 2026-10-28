@@ -87,15 +87,30 @@ export default function App() {
 
               {/* Social Handles (Right Side in the design) */}
               <div className="lg:col-span-4 lg:text-left pt-4 space-y-2 text-xs sm:text-sm font-mono tracking-wider text-[#f5eee6]/90">
-                <p className="hover:text-[#f2a922] transition-colors cursor-pointer">
-                  <span className="font-bold text-[#f2a922]">BE:</span> /tasya-k
-                </p>
-                <p className="hover:text-[#f2a922] transition-colors cursor-pointer">
-                  <span className="font-bold text-[#f2a922]">IG:</span> @tasyaalyakamila
-                </p>
-                <p className="hover:text-[#f2a922] transition-colors cursor-pointer">
-                  <span className="font-bold text-[#f2a922]">LI:</span> /in/tasya-alya-kamila
-                </p>
+                <a 
+                  href="https://github.com/tasyaalyakamila" 
+                  target="_blank" 
+                  rel="noreferrer"
+                  className="block hover:text-[#f2a922] transition-colors"
+                >
+                  <span className="font-bold text-[#f2a922]">GH:</span> /tasyaalyakamila
+                </a>
+                <a 
+                  href="https://www.instagram.com/tsyalykmla" 
+                  target="_blank" 
+                  rel="noreferrer"
+                  className="block hover:text-[#f2a922] transition-colors"
+                >
+                  <span className="font-bold text-[#f2a922]">IG:</span> @tsyalykmla
+                </a>
+                <a 
+                  href="https://www.linkedin.com/in/tasyaalyakamila?originalSubdomain=id" 
+                  target="_blank" 
+                  rel="noreferrer"
+                  className="block hover:text-[#f2a922] transition-colors"
+                >
+                  <span className="font-bold text-[#f2a922]">LI:</span> /in/tasyaalyakamila
+                </a>
               </div>
 
             </div>
@@ -191,13 +206,13 @@ export default function App() {
               {/* Orange Pill Link Button */}
               <div>
                 <a 
-                  href="https://linkedin.com/in/tasya-alya-kamila" 
+                  href="https://www.linkedin.com/in/tasyaalyakamila?originalSubdomain=id" 
                   target="_blank" 
                   rel="noreferrer"
                   className="inline-flex items-center gap-2.5 px-6 py-2.5 rounded-full bg-[#e85d38] hover:bg-[#d44c27] text-white text-xs sm:text-sm font-semibold shadow-md hover:shadow-lg transition-all hover:scale-102"
                 >
                   <Search className="w-4 h-4" />
-                  <span>linkedin.com/in/tasya-alya-kamila</span>
+                  <span>linkedin.com/in/tasyaalyakamila</span>
                 </a>
               </div>
             </div>
@@ -604,9 +619,12 @@ export default function App() {
           <p>© 2026 Tasya Alya Kamila. Crafted with React JS & Vintage Aesthetic.</p>
           <div className="flex items-center gap-6 text-[#f2a922]">
             <a href="https://github.com/tasyaalyakamila/MyPorto" target="_blank" rel="noreferrer" className="hover:underline">
-              GitHub Repository
+              GitHub
             </a>
-            <a href="https://linkedin.com/in/tasya-alya-kamila" target="_blank" rel="noreferrer" className="hover:underline">
+            <a href="https://www.instagram.com/tsyalykmla" target="_blank" rel="noreferrer" className="hover:underline">
+              Instagram
+            </a>
+            <a href="https://www.linkedin.com/in/tasyaalyakamila?originalSubdomain=id" target="_blank" rel="noreferrer" className="hover:underline">
               LinkedIn
             </a>
           </div>
